@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container {
+            width: 100%;
+            height: 100vh;
+            border: 20px solid black;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .visible {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            overflow: visible;
+            border: 5px solid blue;
+        }
+        .hidden {
+            width: 200px;
+            height: 200px;
+            background-color: lightcoral;
+            overflow: hidden;
+            border: 5px solid red;
+        }
+        .scroll {
+            width: 200px;
+            height: 200px;
+            background-color: lightgreen;
+            overflow: scroll;
+            border: 5px solid green;
+        }
+        .auto {
+            width: 200px;
+            height: 200px;
+            background-color: lightyellow;
+            overflow: auto;
+            border: 5px solid orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="visible">Visible</div>
+        <div class="hidden">Hidden</div>
+        <div class="scroll">Scroll</div>
+        <div class="auto">Auto</div>
+    </div>
+</body>
+</html>
